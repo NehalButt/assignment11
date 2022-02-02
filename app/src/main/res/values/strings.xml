@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment 11</string>
+    <string-array name="Ramp">
+        <item>Want to add Ramp?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Music">
+        <item>Want to add Music?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Light">
+        <item>Want to add Extra Light?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

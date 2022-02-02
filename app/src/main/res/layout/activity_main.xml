@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolor"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bungee"
+        android:text="Event planner"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/EventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/inputcss"
+        android:fontFamily="@font/bungee"
+        android:hint="Event Name"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/Eventdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/inputcss"
+        android:fontFamily="@font/bungee"
+        android:hint="Event Date"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/Eventtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/inputcss"
+        android:fontFamily="@font/bungee"
+        android:hint="Event Time"
+        android:inputType="time"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/Guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/inputcss"
+        android:fontFamily="@font/bungee"
+        android:hint="No.of Guest"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Spinner
+        android:id="@+id/Ramp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/spinner"
+        android:minHeight="48dp"
+        />
+
+    <Spinner
+        android:id="@+id/Music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+
+        android:minHeight="48dp"
+        android:background="@drawable/spinner"/>
+    <Spinner
+        android:id="@+id/Lights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:background="@drawable/spinner"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/input"
+        android:text="Register Event"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
